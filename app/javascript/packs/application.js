@@ -13,7 +13,7 @@ require("jquery")
 require("semantic-ui")
 
 
-$(document).on('turbolinks:load', function() {
+$(document).on('turbolinks:load', function() {			//dropdown is not working!
 	$('.ui.dropdown').dropdown();
 })
 
